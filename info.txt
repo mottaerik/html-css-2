@@ -1,0 +1,9 @@
+Margin = Move o bloco do fundo
+Padding = Move o conteudo do bloco
+
+px - Representa 1 pixel da tela (Ex: 1px)
+% - Representa uma % em relação a tela
+vh - Representa uma % em relação a altura da tela
+vw - Representa uma % em relação a largura da tela
+rem - Multiplica o valor que foi definido pelo font-size
+em - Multiplica o valor que foi definido pelo font-size do pai
