@@ -7,3 +7,25 @@ vh - Representa uma % em relação a altura da tela
 vw - Representa uma % em relação a largura da tela
 rem - Multiplica o valor que foi definido pelo font-size
 em - Multiplica o valor que foi definido pelo font-size do pai
+
+Um titulo principal - Centralizado; XXXXXXXXX
+
+Um subtítulo - Alinhado para direita; XXXXXXXXXX
+
+Um cabeçalho com espaçamento interno de: 10px para cima e para baixo, 15px para direita e 10 para esquerda; XXXXXXXXXX
+ 
+Duas seções, uma centralizada e outra na direita. As seções serão dois blocos; XXXXXXXXXX
+
+Três parágrafos, os 2 parágrafos devem estar um do lado do outro; XXXXXXXXX
+
+Duas listas, as listas devem estar uma ao lado da outra. Uma tendo uma borda pontilhada vermelha e outra com borda sólida de cor azul. Os elementos devem ter um espaço de 10px entre si;
+
+Quatro imagens, cada uma deve ocupar metade da tela, caso eu diminua o tamanho da tela, a imagem deve ser redimensionada automaticamente.
+
+Os elementos devem ter um espaço de 10px entre si;
+
+Três links, os links devem estar sem o sublinhado;
+
+Um conteúdo lateral, deixar o elemento de conteúdo lateral alinhado a direita da tela, ao lado do conteúdo principal;
+
+Um rodapé, o rodapé deve ter seu texto alinhado ao centro, também o rodapé deve ter uma borda tracejada de cor verde;

@@ -6,14 +6,68 @@
 }
 
 .fundo {
-    background-color: gray; 
+    background-color: rgb(204, 204, 204); 
     font-family: Arial;
+}
+
+.paragrafo {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.paragrafos {
+    display: inline-block;
+}
+
+.lista {
+    display: inline-block;
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+    border: 2px dashed rgb(255, 0, 0);
+    color:rgb(0, 60, 255); 
+    font-size: 45px;
+}
+
+.lista2 {
+    display: inline-block;
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+    border: 2px solid rgb(4, 38, 231);
+    color:rgb(0, 60, 255); 
+    font-size: 45px;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: calc(50% - 0px);
+    height: auto;
+    padding: 30px;
+}
+
+.imagem {
+    width: calc(50% - 20px);
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.lateral {
+    position: fixed;
+    top: 100px;
+    right: 0px;
 }
 
 h1 {
     color:rgb(0, 0, 0); 
     font-size: 45px; 
-    background-color: aqua; 
     padding: 30px;
     text-align: center;
 }
@@ -23,19 +77,17 @@ h2 {
     text-align: right;
 }
 
-h3 {
-    font-size: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 15px;
-    margin-left: 10px;
+h3 { 
+    padding: 10px 15px 10px 10px;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-span {
-    display: inline-block;
-    background-color: rgb(71, 71, 71);
-    padding: 20px;
+footer {
+
+    background-color: rgb(153, 153, 153);
+    padding: 0px;
     border: 2px dashed rgb(68, 231, 4);
-    color:rgb(0, 60, 255); 
-    font-size: 45px;
+    color:rgb(255, 255, 255); 
+    font-size: 45px; 
 }
